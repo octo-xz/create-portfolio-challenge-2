@@ -34,9 +34,10 @@ ul .nav {
 .box {
     padding: 20px;
 }
-
-ul .contact {
-    display:inline;
-    display: flex;
-    justify-content: center;
+#contact-me {
+    text-align: center;
 }
+ul .contact {
+    text-align: center;
+    list-style-type: none;
+;}
