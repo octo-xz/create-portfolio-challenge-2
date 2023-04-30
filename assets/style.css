@@ -1,4 +1,4 @@
-* {
+/* * {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: medium;
     background-color: rgb(193, 251, 255);
@@ -17,6 +17,11 @@ h1 {
     background-color: rgb(181, 230, 181);
     
 }
+
+.name {
+    display: block;
+
+}
  
 #hero {
     height: 800px;
@@ -26,8 +31,10 @@ h1 {
 ul .nav {
     display:inline;
     display: flex;
-    justify-content: center;
-    background-color: rgb(181, 230, 181) ;
+    justify-content: right;
+    background-color: rgb(16, 18, 16) ;
+    padding: 70px;
+    margin:20px;
 
 }
 
@@ -35,9 +42,12 @@ ul .nav {
     padding: 20px;
 }
 #contact-me {
-    text-align: center;
+    text-align: left;
 }
 ul .contact {
-    text-align: center;
+    display:inline;
+    text-align: left;
     list-style-type: none;
+    padding: 20px;
+    margin: 80px;
 ;}
