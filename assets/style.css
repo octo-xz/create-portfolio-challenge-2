@@ -1,25 +1,44 @@
 * {
-    background-color: rgb(222, 195, 133);
+    background-color: rgb(1, 44, 35);
+    @font-face {
+        font-family: ;
+        src: url();
+    }
+}
+/* 
+-i want to add a hover element to the navigation bar
+-i want the navigation bar to take up part of the right of the screen when on desktop
+-i want to include a header image as the background to the header
+-i want to use a custom font for the text on the page
+-i want to remove the undeline on the navigation links
+-i want the colors to thematically go together
+*/
+hero {
+    width: ;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: end;
+    
 }
 #nav {
     list-style-type: none;
+    text-decoration: none;
     margin: auto 0px;
     padding: auto 0px;
     border-radius: 2%;
-    background-color: rgb(177, 177, 1);
+    background-color: aquamarine;
     display: flex;
     flex-flow: column wrap;
     justify-content: space-between;
     align-content: space-between;
-
-
-
-
+    width: 15%;
+    align-items: flex-start;
 }
 
 .nav {
+    text-decoration: none;
     font-size: 30px;
-    background-color: bisque;
+    background-color: rgb(99, 58, 7);
     margin: 50px 10px;
     padding: 10px 10 px;
     display: flex;
@@ -27,3 +46,8 @@
     
 }
 
+a {
+    color: black;
+    text-decoration: none;
+    background-color: aquamarine;
+}
