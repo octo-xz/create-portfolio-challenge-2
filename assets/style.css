@@ -10,9 +10,10 @@ body {
 /* 
 elements for the header title and nackground image
 */
-header {
+header, h1 {
     background-image: url(/assets/images/placeholder-hero.jpg);
-    background-image: inherit;
+    padding-top:40px ;
+
 }
 
 .name {
@@ -63,3 +64,29 @@ h2 {
     max-width: 100%;
     margin-right: 30px;
 } 
+
+#about {
+    font-size: 20px;
+}
+
+.card {
+    box-shadow: 0 4px 8px;
+    transition: 0.3s;
+    border-radius: 3%;
+}
+
+card:hover {
+    box-shadow: 10px 18px;
+}
+
+.container {
+    padding: 2px 10px;
+}
+
+.card-image {
+    border-radius: 3%;
+    width: 400px 500px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
