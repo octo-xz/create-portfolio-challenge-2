@@ -1,29 +1,115 @@
 * {
-    background-color: rgb(222, 195, 133);
+    background-color: rgb(24, 43, 37);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
+
+body {
+
+}
+/* 
+elements for the header title and nackground image
+*/
+header, h1 {
+    background-image: url(/assets/images/placeholder-hero.jpg);
+    padding-top:40px ;
+
+}
+
+.name {
+    font-size: 100px;
+    text-align: center;
+    padding: 80px;
+}
+/* 
+display elements for the navigation bar for a wide screen ex. desktop
+*/
 #nav {
     list-style-type: none;
-    margin: auto 0px;
-    padding: auto 0px;
-    border-radius: 2%;
-    background-color: rgb(177, 177, 1);
     display: flex;
-    flex-flow: column wrap;
-    justify-content: space-between;
-    align-content: space-between;
-
-
-
-
+    justify-content: center;
+    justify-content: space-around;
+    font-size: 30px;
+    background-color: aquamarine;
+    padding: 15px;
 }
 
 .nav {
-    font-size: 30px;
-    background-color: bisque;
-    margin: 50px 10px;
-    padding: 10px 10 px;
+
+}
+
+#nav a {
+    text-decoration: none;
+    background-color: aquamarine;
+    color: black;
+}
+
+main {
+
+}
+.bio {
     display: flex;
-    flex-flow: column wrap;
-    
+    background-color: aliceblue;
+}
+#about-me {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    font-size: 40px;
+    background-color: aliceblue;
+}
+
+#profile {
+    border-radius: 5%;
+    display: flex;
+    justify-content: flex-start;
+    max-width: 100%;
+    margin-right: 30px;
+    background-color: aliceblue;
+} 
+
+#about {
+    font-size: 20px;
+    background-color: aliceblue;
+}
+
+#portfolio {
+    background-color: blueviolet;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    border-radius: 5px 5px;
+}
+.card {
+    background-color: aquamarine;
+    box-shadow: 0 4px 8px;
+    transition: 0.3s;
+    border-radius: 5px 5px;
+    display: flex;
+    flex-direction: row;
+    margin: 30px
+}
+
+card:hover {
+    box-shadow: 10px 18px;
+}
+
+.container {
+    padding: 2px 10px;
+    background-color: aquamarine;
+    border-radius: 5px 5px;
+}
+
+h3, p {
+    background-color: aquamarine;
+}
+
+#repo {
+    background-color: aquamarine;
+}
+
+.card-image {
+    border-radius: 5px 5px;
+    width: 400px;
 }
 
