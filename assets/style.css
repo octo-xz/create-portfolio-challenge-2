@@ -7,18 +7,22 @@
 body {
 
 }
-
+/* 
+elements for the header title and nackground image
+*/
 header {
     background-image: url(/assets/images/placeholder-hero.jpg);
     background-image: inherit;
 }
 
 .name {
-    font-size: 40px;
+    font-size: 100px;
     text-align: center;
-    padding: 50px;
+    padding: 80px;
 }
-
+/* 
+display elements for the navigation bar for a wide screen ex. desktop
+*/
 #nav {
     list-style-type: none;
     display: flex;
@@ -42,18 +46,20 @@ header {
 main {
 
 }
-
+.bio {
+    display: flex;
+}
 h2 {
     display: flex;
     justify-content: flex-start;
-    width: 50%;
+    width: 100%;
+    font-size: 40px;
 }
 
 #profile {
     border-radius: 5%;
     display: flex;
     justify-content: flex-start;
-    width: 50%;
     max-width: 100%;
-
-}
+    margin-right: 30px;
+} 
