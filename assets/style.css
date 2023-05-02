@@ -1,78 +1,59 @@
 * {
-    background-color: rgb(1, 44, 35);
-    @font-face {
-        font-family: ;
-        src: url();
-    }
+    background-color: rgb(24, 43, 37);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
-/* 
--i want to add a hover element to the navigation bar
--i want the navigation bar to take up part of the right of the screen when on desktop
--i want to include a header image as the background to the header
--i want to use a custom font for the text on the page
--i want to remove the undeline on the navigation links
--i want the colors to thematically go together
-*/
-hero {
-    width: ;
-    display:flex;
-    flex-flow: row wrap;
-    justify-content: end;
-    
+
+body {
+
 }
+
 header {
     background-image: url(/assets/images/placeholder-hero.jpg);
+    background-image: inherit;
 }
 
-#head-image {
-    width: 100%;
-    height: 20%;
+.name {
+    font-size: 40px;
+    text-align: center;
+    padding: 50px;
 }
-h1 {
-    background-image: url(/assets/images/placeholder-hero.jpg);
-    display:block;
-    margin: 0 auto;
-    position: relative;
-    font-size: 90px;
-    left: 300px;
-    width: 50%;
-    top: 180px;
 
-
-}
 #nav {
     list-style-type: none;
-    text-decoration: none;
-    margin: 10px 10px;
-    padding: 5px 30px;
-    display: block;
-    position: relative;
-    bottom: 60px;
-    border-radius: 2%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    font-size: 30px;
     background-color: aquamarine;
-    width: 15%;
-    align-items: start;
+    padding: 15px;
 }
 
 .nav {
-    text-decoration: none;
-    font-size: 30px;
-    background-color: rgb(99, 58, 7);
-    margin: 50px 10px;
-    padding: 10px 10 px;
-    display: flex;
-    flex-flow: column wrap;
-    text-align: center;
-    
+
 }
 
-a {
-    color: black;
+#nav a {
     text-decoration: none;
     background-color: aquamarine;
+    color: black;
 }
 
-#horiseon {
+main {
+
+}
+
+h2 {
+    display: flex;
+    justify-content: flex-start;
     width: 50%;
-    height: auto;
+}
+
+#profile {
+    border-radius: 5%;
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+    max-width: 100%;
+
 }
