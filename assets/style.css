@@ -37,7 +37,8 @@ display elements for the navigation bar for a wide screen ex. desktop
 }
 
 .nav {
-
+    display: flex;
+    border-radius: 5px;
 }
 
 #nav a {
