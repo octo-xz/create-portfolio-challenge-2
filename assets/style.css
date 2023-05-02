@@ -51,7 +51,7 @@ main {
     display: flex;
     background-color: aliceblue;
 }
-h2 {
+#about-me {
     display: flex;
     justify-content: flex-start;
     width: 100%;
