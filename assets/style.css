@@ -176,7 +176,7 @@ address {
 @media screen and (max-width: 1338px) {
     header, h1 {
         background-color: lavender;
-        
+
 
     }
     .bio {
@@ -194,6 +194,7 @@ address {
 @media screen and (max-width: 754px) {
     header, h1 {
         background-color: lavender;
+        font-size: 30px;
     }
     .card {
         width: 100%;
