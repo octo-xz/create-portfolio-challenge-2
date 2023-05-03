@@ -91,6 +91,20 @@ main {
     justify-content: center;
     border-radius: 5px 5px;
 }
+
+.first {
+    width: 100%;
+    justify-content: center;
+
+}
+
+.all {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
 .card {
     background-color: aquamarine;
     box-shadow: 0 4px 8px;
@@ -111,7 +125,7 @@ card:hover {
     background-color: aquamarine;
     border-radius: 5px 5px;
     text-align:center;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 h3, p {
