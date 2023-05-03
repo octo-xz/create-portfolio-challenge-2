@@ -40,6 +40,7 @@ display elements for the navigation bar for a wide screen ex. desktop
 .nav {
     display: flex;
     border-radius: 5px;
+    background-color: aquamarine;
 }
 
 #nav a {
@@ -91,6 +92,23 @@ main {
     justify-content: center;
     border-radius: 5px 5px;
 }
+
+.first {
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+
+
+}
+
+.all {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
 .card {
     background-color: aquamarine;
     box-shadow: 0 4px 8px;
@@ -111,7 +129,7 @@ card:hover {
     background-color: aquamarine;
     border-radius: 5px 5px;
     text-align:center;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 h3, p {
@@ -129,23 +147,56 @@ h3, p {
 }
 
 address {
-    background-color: aliceblue;
+    background-color: lavender;
     padding: 30px;
     border-radius: 5px;
     text-align: center;
 }
 
 #contact-me {
-    background-color: aliceblue;
+    background-color: lavender;
 
 }
 
+.workpls {
+    background-color: lavender;
+}
+
 .contact {
-    background-color: aliceblue;
+    background-color: lavender;
     text-decoration: none;
     list-style: none;
 }
 
 .contact a {
-    background-color: aliceblue;
+    background-color: lavender;
+}
+
+
+@media screen and (max-width: 1338px) {
+    header, h1 {
+        background-color: lavender;
+
+
+    }
+    .bio {
+        flex-direction: column;
+    }
+    #nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 754px) {
+    header, h1 {
+        background-color: lavender;
+        font-size: 30px;
+    }
+    .card {
+        width: 100%;
+    }
 }
