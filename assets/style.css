@@ -7,60 +7,157 @@
     line-height: 2;
 }
 
-header, .name, #nav, .nav, .nav a {
-    background-color: rgb(158, 183, 193);
-    margin: 20px;
-    padding: 20px;
-    text-align: center;
-    list-style-type: none;
-    text-decoration: none;
-    border-radius: 5px;
+body {
+    background: lavender;
+    background-image: url(/assets/images/cherry-blossom-png-hd-cherry-blossom-871.png);
+    background-repeat: no-repeat;
+    display: block;
+    position:absolute;
+    bottom: 0;
 }
+/*title in header (name)*/
 
 .name {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 50px;
-    font-size: 50px;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    background-color: #eeccff;
+    border: 5px solid #f2b3ff;
+    border-radius: 5px;
 }
 
-#nav, .nav, .nav a {
-    background-color: rgb(190, 207, 241);
+/* navigation menu */
+
+#bar {
+    width: 100%;
+    background: lavender;
+}
+
+/* for desktop/ widescreen users*/
+#bar label, #lines {
+    display: none;
+}
+/* navigation menu items*/
+#menu-items {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+}
+#menu-items a {
+    padding: 15px;
     color: black;
-    border: 4px green;
-    border-radius: 5px;
-
+    text-decoration: none;
+    text-align: center;
+    flex-grow: 1;
+    flex-basis: 0;
 }
 
-.bio, #profile, .text, #about-me, .about {
-    background-color: rgb(158, 183, 193);
-    margin: 5px;
-    padding: 5px;
+#menu-items a:hover {
+    background: #BFB3FF;
+    border:5px solid #aa99ff;
     border-radius: 5px;
+}
+
+/*about me section*/
+.bio {
+    border: 5px solid #f2b3ff;
+}
+.bio, #profile {
+    background: #eeccff;
+    line-height: 3;
+    border-radius: 10px;
+    margin: 12px;
     display: flex;
+}
+/*image specs for about me*/
+#profile {
+    padding: 5px;
+}
+/*text specs for about me*/
+.text {
+    background: #eeccff;
 }
 
 #about-me {
     display: flex;
     justify-content: center;
+    flex-direction: row;
+    background: #eeccff;
 }
 
-.text {
-    display: inline;
+.about {
+    display: flex;
+    flex-direction: column;
+    background: #eeccff;
+}
+p {
+    text-indent: 20px;
 }
 
+/*portfolio section*/
 #portfolio {
+    font-size: 30px;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    background: #BFB3FF;
+    border: 5px solid #aa99ff;
+    border-radius: 5px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin: 2%;
-    padding: 2%;
-    font-size: 30px;
-    background-color: rgb(190, 207, 241);
-    border-radius: 5px;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
+/*footer image*/
+
+/*phones; small screens specified*/
+
+/*menu for small screens; hamburger*/
+@media screen and (max-width: 768px) {
+    #menu-items {
+        display: flex;
+        flex-direction: column;
+    }
+    #menu-items a {
+        width: 100%;
+        box-sizing: border-box;
+        border: 3px solid #eeccff;
+    }
+    #bar label {
+        display: inline-block;
+        color: #BFB3FF;
+        font-size: 40px;
+        font-style: normal;
+        padding: 15px;
+    }
+    #menu-items {
+        display: none ;
+    }
+    #bar input:checked ~ #menu-items {
+        display: flex;
+    }
+
+    /*about me section*/
+    .bio, #profile, .text, #about-me, .about {
+        background: #eeccff;
+        display: flex;
+        flex-direction: column;
+    }
+    .bio {
+        border: 5px solid #f2b3ff;
+        border-radius: 5px;
+    }
+    #profile {
+        display: flex;
+        width: auto;
+        border-radius: 5px solid;
+    }
+    #about-me {
+        text-align: center;
+    }
+    .about {
+        padding: 0 20px;
+        margin: 10 10px;
+    }
+    /*portfolio section*/
+}
