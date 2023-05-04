@@ -9,27 +9,36 @@
 </head>
 <body>
     <header>
+        <!--Title of webpage-->
         <h1 class="name">JULIAN POWER</h1>
-        <ul id="nav">
-            <li class="nav">
-                <a href="#about-me">ABOUT ME</a>
-            </li>
-            <li class="nav">
-                <a href="#portfolio">PORTFOLIO</a>
-            </li>
-            <li class="nav">
-                <a href="#contact-me">CONTACT ME</a>
-            </li>
-        </ul>
+        <!--navigation; hamburger menu--> 
+            <nav id="bar">
+                <!--menu icon-->
+                <label for="lines">&#9776;</label>
+                <input type="checkbox" id="lines">
+                <section id="menu-items">
+                    <a href="#about-me">ABOUT ME</a>
+                       
+                    <a href="#portfolio">PORTFOLIO</a>
+                  
+                    <a href="#contact-me">CONTACT ME</a>
+                </section>
+            </nav>
+        </button>
         </header>
     <main>
+        <!--about me section-->
         <section class="bio">
             <img id="profile" src="/assets/images/coding-placeholder.jpg" width="150%">
             <section class="text">
                 <h2 id="about-me">Full-stack Web Developer</h2>
-                <p id="about">After successfully completing the UC Berkeley Extension bootcamp I am looking to make a career change in the wonderful world of the tech industry. Having developed both skills in front-end and back-end technologies I look forward to putting my skills to the test by working for a company whose mission I can stand behind.</p>
+                <p class="about">After successfully completing the UC Berkeley Extension bootcamp I am looking to make a career change in the wonderful world of the tech industry. Having developed both skills in front-end and back-end technologies I look forward to putting my skills to the test by working for a company whose mission I can stand behind.</p>
+                <p class="about">Outside practising my amazing coding skills I also enjoy a variety of more active hobbies including: hiking, dancing, ice skating, and lifting weights. I pride myself on having a work life balance and a major part of that is making sure to stay active! </p>
+                <p  class="about">Other sedentary hoobies include video games, listening to music and drawing. One of the reasons I got into coding was because I enjoy video games. I'm curious to understand how they work because of my passion for games.
+              </p>
             </section>
         </section>
+        <!--Portfolio section and main content-->
         <h2 id="portfolio">PORTFOLIO</h2>
         <section class="all">
         <article class="card">
@@ -67,18 +76,11 @@
             </section>
         </article>
         </section>
-        </main>
+        <div class="cherry"></div>
         </main>
     </main>
     <footer>
-        <!--<form>
-            <h3>Contact Me</h3>
-            <p>Name:</p>
-            <input type="text">
-            <p>Message:</p>
-            <textarea>Type here..</textarea>
-            <input type="submit">
-        </form>-->
+        <!--Contact information; last content section-->
         <address>
             <h3 id="contact-me">Contact Me</h3>
             <ul class="workpls">
@@ -87,13 +89,6 @@
                 <li class="contact">Phone Number: 707-757-3153</li>
             </ul>
         </address>
-
-        <!--
-            <select>Contact Me</select>
-                <option>Email: <a href="mailto:power.jd@proton.me">power.jd@proton.me</a></option>
-                <option>Github: <a href="https://github.com/octo-xz">Julian Power</a></option>
-                <option>Phone: (707)757-3153</option
-        -->
     </footer>
 </body>
 </html>
