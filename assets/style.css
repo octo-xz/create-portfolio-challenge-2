@@ -1,7 +1,4 @@
 * {
-    background: lavender;
-    background-repeat: no-repeat;
-    background-size: cover;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 18px;
     line-height: 2;
@@ -9,11 +6,6 @@
 
 body {
     background: lavender;
-    background-image: url(/assets/images/cherry-blossom-png-hd-cherry-blossom-871.png);
-    background-repeat: no-repeat;
-    display: block;
-    position:absolute;
-    bottom: 0;
 }
 /*title in header (name)*/
 
@@ -22,7 +14,7 @@ body {
     margin: 10px;
     padding: 20px;
     font-size: 30px;
-    background-color: #eeccff;
+    background-color: #eeccff8a;
     border: 5px solid #f2b3ff;
     border-radius: 5px;
 }
@@ -31,7 +23,8 @@ body {
 
 #bar {
     width: 100%;
-    background: lavender;
+    background: rgba(230, 230, 250, 0.329);
+    border-radius: 5px;
 }
 
 /* for desktop/ widescreen users*/
@@ -49,45 +42,48 @@ body {
     text-align: center;
     flex-grow: 1;
     flex-basis: 0;
+    border-radius: 5px;
 }
 
 #menu-items a:hover {
-    background: #BFB3FF;
-    border:5px solid #aa99ff;
+    background: #beb3ff76;
+    border:5px solid #aa99ff9f;
     border-radius: 5px;
 }
 
 /*about me section*/
 .bio {
-    border: 5px solid #f2b3ff;
+    border: 5px solid #f2b3ff77;
 }
 .bio, #profile {
-    background: #eeccff;
+    background: #eeccff61;
     line-height: 3;
     border-radius: 10px;
-    margin: 12px;
+    padding: 12px;
     display: flex;
 }
 /*image specs for about me*/
 #profile {
     padding: 5px;
+    background-color: #eeccff61;
 }
 /*text specs for about me*/
 .text {
-    background: #eeccff;
+    background: #eeccff61;
+    border-radius: 5px;
 }
 
 #about-me {
     display: flex;
     justify-content: center;
     flex-direction: row;
-    background: #eeccff;
+    background: #eeccff61;
 }
 
 .about {
     display: flex;
     flex-direction: column;
-    background: #eeccff;
+    background: #eeccff61;
 }
 p {
     text-indent: 20px;
@@ -99,18 +95,98 @@ p {
     text-align: center;
     margin: 10px;
     padding: 20px;
-    background: #BFB3FF;
-    border: 5px solid #aa99ff;
+    background-color: #beb3ff9c;
+    border: 5px solid #aa99ff86;
     border-radius: 5px;
     display: flex;
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
 }
+h3 {
+    text-align: center;
+}
+.main-card {
+
+}
+.container {
+    background-color: #eeccffb8;
+    border: 5px solid #f2b3ff;
+    padding: 0px;
+    margin: 5px;
+    border-radius: 5px;
+    line-height: 0;
+}
+.all {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    line-height: 0;
+}
+.card-image{
+    width:30vw;
+}
+
+.main-image {
+    width: 80vw;
+}
+
+/*contact section*/
+
+#contact-me {
+    font-size: 30px;
+    text-decoration: none;
+    background-color: #beb3ff9c;
+    border: 5px solid #aa99ff86;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact-info {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+.contact {
+    list-style-type: none;
+    display: inline;
+    text-align: center;
+    background-color: #beb3ff9c;
+    border: 5px solid #aa99ff86;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    padding: 8px;
+}
+
+.first {
+    order: 1;
+}
+
+.second {
+    order: 2;
+}
+
+.third {
+    order: 3;
+}
 
 /*footer image*/
 
+#cherry {
+    position: fixed;
+    top: -1dvh;
+    left: 48vw;
+    width: 54%;
+    z-index: -1;
+}
+
+
+
 /*phones; small screens specified*/
+
+
 
 /*menu for small screens; hamburger*/
 @media screen and (max-width: 768px) {
@@ -139,7 +215,7 @@ p {
 
     /*about me section*/
     .bio, #profile, .text, #about-me, .about {
-        background: #eeccff;
+        background: #eeccff64;
         display: flex;
         flex-direction: column;
     }
@@ -160,4 +236,27 @@ p {
         margin: 10 10px;
     }
     /*portfolio section*/
+
+    .main-card {
+        width: 100%; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .main-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /*contact information section*/
+
+    address {
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+    }
 }
+
+
