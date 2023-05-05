@@ -4,11 +4,6 @@
 
 This project utilizes both HTML and CSS elements to craft a dynamic and aesthetic portfolio webpage. This webpage is designed to display previous project works and deploys to one live site as well as coming soon pages. For the website project I linked it to this github page because you're already there on the webpage! 
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
-
 ## Installation
 
 This project can be accessed through the repository on github <a href="https://github.com/octo-xz/create-portfolio-challenge-2">here</a>. You can either download the .zip file or copy the repository through an SSH key by clicking on the green button on the right that says "<> Code"
