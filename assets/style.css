@@ -66,11 +66,13 @@ body {
 #profile {
     padding: 5px;
     background-color: #eeccff61;
+    width: 800px;
 }
 /*text specs for about me*/
 .text {
     background: #eeccff61;
     border-radius: 5px;
+    line-height: 5;
 }
 
 #about-me {
@@ -78,12 +80,15 @@ body {
     justify-content: center;
     flex-direction: row;
     background: #eeccff61;
+    padding: 10px;
+    font-size: 30px;
 }
 
 .about {
     display: flex;
     flex-direction: column;
     background: #eeccff61;
+    line-height: 3;
 }
 p {
     text-indent: 20px;
