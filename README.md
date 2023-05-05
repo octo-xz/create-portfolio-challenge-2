@@ -39,7 +39,7 @@ I am not looking for contributions at this time.
 
 ## Deployed Site!
 
-You can find the deployed webpage at this link: https://github.com/octo-xz/create-portfolio-challenge-2
+You can find the deployed webpage at this link: https://octo-xz.github.io/create-portfolio-challenge-2/
 
 ## Tests
 
