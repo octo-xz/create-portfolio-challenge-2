@@ -28,34 +28,22 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
+I would like to thank all the Learning Assistants through Ask BCS who helped me through blocks(even when they were super basic) and I would also like to thank my tutor Dru for being so fun and making coding a great learning experience. I would also like to thank my instructor Robbert for his great lectures as well as all the TAs who are invaluable to the learning experience!
 
 ## License
 
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
-
----
-
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
-
-## Badges
-
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
-
-Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
+This webiste using a basic MIT license.
 
 ## Features
 
 If your project has a lot of features, list them here.
+This project features an interactive navigation bar and a hamburger menu that I made with the help of several different tutorials as well as looking up different psuedo selectors and classes. 
+This webpage features the main content area with the latest projects on display. Finally there is the Contact Me section allowing me to get so many job offerings.
 
 ## How to Contribute
 
-If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
+I am not looking for contributions at this time.
 
 ## Tests
 
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
+2023/5/4 Deployed website, images broken. Added . before /assests folder.
