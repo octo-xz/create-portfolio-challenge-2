@@ -31,7 +31,6 @@ This webiste using a basic MIT license.
 
 ## Features
 
-If your project has a lot of features, list them here.
 This project features an interactive navigation bar and a hamburger menu that I made with the help of several different tutorials as well as looking up different psuedo selectors and classes. 
 This webpage features the main content area with the latest projects on display. Finally there is the Contact Me section allowing me to get so many job offerings.
 
@@ -42,3 +41,4 @@ I am not looking for contributions at this time.
 ## Tests
 
 2023/5/4 Deployed website, images broken. Added . before /assests folder.
+2023/5/4 fixed broken images
