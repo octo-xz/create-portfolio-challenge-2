@@ -238,7 +238,6 @@ h3 {
     /*portfolio section*/
 
     .main-card {
-        width: 100%; 
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -248,15 +247,42 @@ h3 {
         justify-content: center;
         align-items: center;
     }
-
+    .all {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .card-image {
+        justify-content: center;
+        width:inherit;
+    }
     /*contact information section*/
 
     address {
         display:flex;
         flex-direction: column;
         flex-wrap: wrap;
-
     }
+
+    .contact-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+    }
+    .contact {
+        margin: 5px;
+    }
+    /*cherry blossom image*/
+    #cherry {
+        position: fixed;
+        top: -10dvh;
+        left: 15vw;
+        width: 100%;
+        z-index: -1;
+    }
+    
 }
 
 

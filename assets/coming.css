@@ -1,0 +1,26 @@
+* {
+    font-size: 30px;
+    background-color: rgb(217, 195, 243);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+h1 {
+    color: #e396f2;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    padding:20px;
+    background-color: #eeccffa8;
+    border: 5px solid #dc8ee3a5;
+    border-radius: 5px;
+}
+#cherry {
+    position:fixed;
+    left: 66vw;
+    top: dvh;
+    z-index: -1;
+    width: 40%;
+    opacity: 0.4;
+}
+
