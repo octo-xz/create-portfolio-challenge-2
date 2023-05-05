@@ -13,13 +13,12 @@ This project can be accessed through the repository on github <a href="https://g
 This website can be used by potential clients to preview this developer's prior work and decide if they are a good fit for a role to fill. It can also be perused by fellow developers to get inspiration and an idea of the competition (its steep!)
 
 '''md
-![the website layout page]()
+![the main webpage portfolio section](./assets/images/portfolio-section.jpeg)
+'''
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+'''md
+![the coming soon page](./assets/images/coming-soon-page.jpeg)
+'''
 
 ## Credits
 
