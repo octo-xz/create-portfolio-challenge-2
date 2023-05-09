@@ -12,13 +12,13 @@ This project can be accessed through the repository on github <a href="https://g
 
 This website can be used by potential clients to preview this developer's prior work and decide if they are a good fit for a role to fill. It can also be perused by fellow developers to get inspiration and an idea of the competition (its steep!)
 
-'''md
-![the main webpage portfolio section](./assets/images/portfolio-section.jpeg)
-'''
 
-'''md
+![the main webpage portfolio section](./assets/images/portfolio-section.jpeg)
+
+
+
 ![the coming soon page](./assets/images/coming-soon-page.jpeg)
-'''
+
 
 ## Credits
 
